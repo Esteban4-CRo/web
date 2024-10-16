@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/jquery.js" charset="utf-8"></script>
+<script src="assets/js/Jquery3.4.1.min.js" charset="utf-8"></script>
+<script src="assets/js/owl.carousel.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/stilos.css">
+    <link rel="stylesheet" href="assets/css/nuevo.css">
+    <link rel="stylesheet" href="assets/css/nuevo1.css">
+    <link rel="stylesheet" href="assets/css/nuevo2.css">
+    <title>Series</title>
+    <style>
+        
+
+
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #253dd622 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-color: none;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+
+
+    <div class="container ">
+
+        <nav id="header">
+            <div class="nav-logo">
+
+               
+                <img src="assets/images/univalle-logo-01.png" alt="">
+               
+               <span></span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="Series.html" class="nav-link active-link">Series</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="evidencias.html" class="nav-link">Evidence</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="index.html" class="nav-link">Back to Home</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <!--
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>-->
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+    </div>
+<br><br>
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="Img/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="Img/david-laid.gif" alt=""></div>
+            <div class="item" style="--position: 3"><img src="Img/ab67616d00001e02fa96fd3251629605bb59345d.jpeg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="Img/E7E7COZ7CJFITPFFJJ4JW3PEVI.gif" alt=""></div>
+            <div class="item" style="--position: 5"><img src="Img/0060253786570_600.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="Img/sipo.png" alt=""></div>
+            <div class="item" style="--position: 7"><img src="Img/ab67616d0000b273df55e326ed144ab4f5cecf95.jpeg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="Img/coding.gif" alt=""></div>
+            <div class="item" style="--position: 9"><img src="Img/depositphotos_74378645-stock-illustration-concept-of-daily-routine-with.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="Img/ebc88dad196a364fce1d462cdc1a4eb4.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="">
+             
+            </h1>
+            <!--
+            <div class="author">
+                <h2>LUN DEV</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    Subscribe to the channel to watch many interesting videos
+                </p>
+            </div>
+            -->
+            <div class="model">
+                
+            </div>
+        </div>
+
+        <section class="section" id="evidencia">
+
+            <h1>AIIDIDI</h1>
+        </section>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+
+
+    <!--Parte nueva de la serie, donde voy a agregar las imagenes y evidencias -->
+    <header id="home">
+        <!--
+        <div class="container_content">
+          <div class="container">
+            <div class="icon flex1">
+              <div class="box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+              </div>
+              <div class="box">
+                <i class="fa fa-envelope"></i>
+                <label>youremail@gmail.com</label>
+                <i class=" fa fa-phone"></i>
+                <label>+ 123 456 789</label>
+              </div>
+            </div>
+            <hr>
+            <nav>
+              <div class="barnd">
+                <h1>Dot Studio</h1>
+              </div>
+              <ul id="menu">
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li><a href="#BLOG">BLOG</a></li>
+                <li><a href="#PHOTO">PHOTO</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+              <i id="icon" class="fa fa-bars"></i>
+            </nav>
+
+
+            <div class="home">
+              <h3>INTERIOR DESIGN COMPANY</h3>
+              <h1>Experience Interior <br> Design</h1>
+              <div class="item grid">
+                <div class="item_box flex">
+                  <img src="image/i1.png" width="80px">
+                  <div class="text">
+                    <a>Interior Architecture</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+                <div class="item_box flex ">
+                  <img src="image/i2.png" width="80px">
+                  <div class="text">
+                    <a>Interior Design</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+                <div class="item_box flex">
+                  <img src="image/i3.png" width="80px">
+                  <div class="text">
+                    <a>Furniture</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        -->
+      </header>
+      <script>
+        let bar = document.getElementById("icon");
+        let menu = document.getElementById("menu");
+        bar.addEventListener("click", function() {
+          if (bar.className === "fa fa-bars") {
+            bar.className = "fa fa-times";
+            menu.style.right = 0;
+          } else {
+            bar.className = "fa fa-bars";
+            menu.style.right = "-1000px";
+          }
+        })
+      </script>
+      <section class="Design">
+        <div class="container grid">
+          <div class="box flex">
+            <i class="fa fa-ear-listen"></i>
+            <div class="text">
+              <h4><strong>LISTEN</strong></h4>
+              <p> 
+                I improved my listening skills with music by watching “The Office”, it helped me develop my listening a little more. </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <i class="fa fa-comments"></i>
+
+            <div class="text">
+              <h4><strong>READ</strong></h4>
+              <p> 
+                In some games or in tiktok I encountered English texts on a daily basis, so in one way or another it helped me to improve my grammar and expand my vocabulary. </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <i class="fa fa-pen"></i>
+
+            <div class="text">
+              <h4><strong>WRITE</strong></h4>
+              <p> 
+                To improve my writing skills, I reviewed most of the verbs and their conjugation which made me learn by heart some of them. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="ABOUT">
+        <div class="container flex1">
+          <div class="left">
+            <div class="img">
+              <img src="Img/Imagen de WhatsApp 2024-10-05 a las 11.02.30_a965a41a.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h5>How did I learn daily?</h5>
+            <h2>ㅤㅤHow did I learn daily?</h2>
+            <button class="accordion  "> <label>LISTENING TO MUSIC</label> </button>
+            <div class="panel active">
+                <br>
+              <p>  
+                ㅤMost of the time I listen to music, I like music. Most of ㅤit is in Spanish but also in English, sometimes I listen ㅤto RadioHead, XXXTENTATION, Lana del Rey orㅤㅤㅤ ㅤLadyGaga,sometimes when I'm on the streetㅤ,ㅤㅤ ㅤwhen I'm training or studying.</p>
+            </div>
+            <button class="accordion">PLAYING VIDEO GAMES</button>
+            <div class="panel">
+                <br>
+              <p>ㅤPlaying video games you learn a lot of thingsㅤㅤ,especially in Minecraft or Roblox, some basic thingsㅤ like materials and socializing with people fromㅤ other countries helps you practice your English a lot.
+                </p>
+            </div>
+            <button class="accordion">READING</button>
+            <div class="panel">
+                <br>
+              <p>ㅤAs I mentioned before, I also learned a little byㅤ reading the lyrics of the songs or some poems in Tiktok in English, although personally I learned much more with the songs. 
+               </p>
+            </div>
+            <button class="accordion">SPEAKING</button>
+            <div class="panel">
+                <br>
+              <p>ㅤSpeaking the language in the classes with theㅤ teacher and some friends, I was able to improve my pronunciation and communication.
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+      <section class="Testimonials" id="Testimonials">
+        <div class="container">
+          <h5> </h5>
+          <h2><strong></strong></h2>
+          <div class="owl-carousel owl-theme">
+            <div class="item  ">
+              <div class="box flex">
+                <div class="img">
+                  <img src="assets/images/Enchanted_Fishing_Rod.webp" alt=""><br>
+                </div>
+                <div class="text">
+                  <h3>fishing rod</h3>
+                  <h5><strong>MINECRAFT</strong></h5><br>
+                </div>
+              </div>
+              <p> Learning English in Minecraft is fun and effective. Players expand their vocabulary and improve reading skills by interacting with others, reading instructions, and completing quests in English. This immersive experience helps users practice common expressions and phrases naturally.</p>
+            </div>
+            <div class="item  ">
+              <div class="box flex">
+                <div class="img">
+                  <img src="assets/images/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt=""><br>
+                </div>
+                <div class="text">
+                  <h3></h3>
+                  <h5><strong>ROBLOX</strong></h5><br>
+                </div>
+              </div><br><br>
+              <p> Learning English in Roblox is engaging and interactive. Players enhance their vocabulary and comprehension by reading game instructions, chatting with others, and completing quests. This immersive environment encourages the use of everyday phrases and expressions, making language learning enjoyable.</p>
+            </div>
+            <div class="item  ">
+              <div class="box flex">
+                <div class="img">
+                  <img src="assets/images/spotify-icon-filled-256.png" alt=""><br>
+                </div>
+                <div class="text">
+                  <h3></h3>
+                  <h5><strong>SPOTIFY</strong></h5><br>
+                </div>
+              </div><br><br>
+              <p> Learning English on Spotify is enjoyable and effective. By listening to music, podcasts, and audiobooks in English, users can improve their vocabulary and pronunciation. Engaging with diverse content helps reinforce language skills and exposes learners to different accents and expressions, making the learning experience dynamic and entertaining.</p>
+            </div>
+            <div class="item  ">
+              <div class="box flex">
+                <div class="img">
+                  <img src="assets/images/d9c0578712f00f29a6e2652290f2d34d.jpg" alt=""><br>
+                </div>
+                <div class="text">
+                  <h3>"The Office"</h3>
+                  <h5><strong>NETFLIX</strong></h5>
+                </div>
+              </div>
+              <br>
+              <p>Learning English by watching *The Office* is both entertaining and educational. The show features relatable characters and everyday scenarios, helping viewers pick up vocabulary, idioms, and cultural references. The humor and dialogue enhance listening skills and comprehension, making language learning enjoyable and engaging.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: false,
+          dots: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            800: {
+              items: 2
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      </script>
+      <section class="about photo" id="PHOTO">
+      </section>
+      <section class="blog" id="BLOG">
+        <div class="container  ">
+          <h5>---------------</h5>
+          <h2><strong>FAVORITE SONGS</strong></h2> <br><br>
+          <div class="content grid">
+            <div class="box">
+              <div class="img">
+                <img src="assets/images/ab67616d0000b273a47c0e156ea3cebe37fdcab8.jpeg" alt="">
+              </div>
+              <div class="text">
+                <label>15, April 2011</label><br>
+                <p>"Judas" is a song by Lady Gaga from her 2011 album *Born This Way*. The lyrics explore themes of love, betrayal, and the struggle between good and evil, using the biblical figure of Judas Iscariot as a metaphor. The music video features striking imagery that combines religious symbolism with Gaga's distinctive style. The song is known for its catchy beat and dance-pop sound, reflecting on complex relationships and internal conflict.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="assets/images/descarga.jpeg" alt="">
+              </div>
+              <div class="text">
+                <label>November 2016</label><br>
+                <p>"Right Here" is a song by Lil Peep that showcases his signature blend of emo and hip-hop. The lyrics express feelings of longing, heartbreak, and vulnerability, as he reflects on relationships and the struggles of life. With its melodic production and emotional delivery, the track captures the essence of longing for connection and the pain of lost love. Lil Peep’s unique style and raw honesty resonate throughout the song, making it a relatable anthem for many fans.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="assets/images/re.jpeg" alt="">
+              </div>
+              <div class="text">
+                <label>10, June 2022</label><br>
+                <p>"Glimpse of Us" is a song by Joji that explores themes of love, nostalgia, and heartache. The lyrics reflect a sense of longing and the bittersweet feeling of remembering a past relationship while struggling to find happiness in the present. Joji's emotional delivery and the melancholic piano melody create a haunting atmosphere, allowing listeners to connect deeply with the feelings of yearning and vulnerability expressed in the song. The track captures the essence of fleeting moments of joy amidst sadness and loss.vel</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+
+      <!--
+      <footer>
+        <div class="container">
+          <div class="content grid">
+            <div class="item ">
+              <h3>Navigation</h3>
+              <div class="item_box flex1 ">
+                <ul>
+                  <li>Home</li>
+                  <li>Servies</li>
+                  <li>News</li>
+                  <li>Team</li>
+                </ul>
+                <ul>
+                  <li>Abou Us</li>
+                  <li>Privacy Policy</li>
+                  <li>Contact</li>
+                  <li>Membership</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Recent News</h3>
+              <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <div class="box flex">
+                <div class="img">
+                  <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <label>SEP 16, 2021</label>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Subscribe Newsletter</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit minima minus odio.</p>
+              <input type="text" placeholder="Enter Email">
+              <label class="label">Send</label>
+              <div class="icon">
+                <h3>Follow Us</h3>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made <i class="fa fa-heart"></i> with by <label>Dot Studio</label> </p>
+        </div>
+      </footer>
+      -->
+</body>
+</html>
